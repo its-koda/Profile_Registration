@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_SESSION['usuario'] = $usuario;
         $_SESSION['cor'] = $cor; // Salva a cor escolhida na sessão
 
-        header("Location: 15b_restrita.php");
+        header("Location: 1d_login.php");
         exit();
     } else {
         $erro = "Usuário ou senha incorretos!";
